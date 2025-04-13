@@ -1,0 +1,76 @@
+name: PR Structure Check
+
+on:
+  pull_request:
+    branches:
+      - main # Or your default branch (e.g., master)
+    types: [opened, synchronize] # Run on PR open and updates
+
+jobs:
+  check_pr_structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR Code
+        uses: actions/checkout@v4
+        # Fetches the state of the code in the PR branch
+
+      - name: Get Changed Files
+        id: changed_files
+        uses: tj-actions/changed-files@v44 # Using a specific recent version
+        with:
+          files_separator: ' ' # Get output as a space-separated string
+
+      - name: Validate PR Folder Structure
+        shell: bash
+        run: |
+          all_changed_files="${{ steps.changed_files.outputs.all_changed_files }}"
+          echo "Files changed in this PR: $all_changed_files"
+
+          if [[ -z "$all_changed_files" ]]; then
+            echo "No files changed in this PR. Skipping structure check."
+            exit 0
+          fi
+
+          top_level_dir=""
+          valid_structure=true
+
+          # --- Verify all files are in ONE top-level directory ---
+          for file in $all_changed_files; do
+            # Check if file is at the root (no directory)
+            if [[ ! "$file" == *"/"* ]]; then
+               echo "::error file=$file::File '$file' found at the root level. All changes must be inside a single top-level folder (e.g., 'example-app/')."
+               valid_structure=false
+               break
+            fi
+
+            # Extract the first directory name
+            current_dir=$(echo "$file" | cut -d'/' -f1)
+
+            # Set the expected top-level directory based on the first file found
+            if [[ -z "$top_level_dir" ]]; then
+              top_level_dir="$current_dir"
+              echo "Detected requirement: All changes must be within the '$top_level_dir/' folder."
+            # Check if subsequent files are in the same top-level directory
+            elif [[ "$current_dir" != "$top_level_dir" ]]; then
+              echo "::error file=$file::File '$file' is in '$current_dir/' directory. All changes must be within the single top-level folder '$top_level_dir/' for this PR."
+              valid_structure=false
+              break
+            fi
+          done
+
+          # Exit if the structure is invalid
+          if [[ "$valid_structure" == "false" ]]; then
+             exit 1
+          fi
+
+          # --- Check for required README.md in the top-level directory ---
+          readme_path="$top_level_dir/README.md"
+          echo "Checking for required file: $readme_path"
+
+          if ! test -f "$readme_path"; then
+            echo "::error file=$readme_path::The required file '$readme_path' was not found in the top-level folder '$top_level_dir/' within this PR."
+            exit 1
+          fi
+
+          echo "PR structure validation successful."
+          echo "All changes are within the '$top_level_dir/' folder, and '$readme_path' exists."
