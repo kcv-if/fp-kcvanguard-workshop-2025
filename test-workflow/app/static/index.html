@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Classification</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        #preview { max-width: 300px; display: none; margin: 20px auto; }
+        #output { font-size: 20px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🃏 Card Classification</h1>
+    <input type="file" id="upload" accept="image/*">
+    <br>
+    <img id="preview">
+    <br>
+    <button onclick="classifyImage()">Predict</button>
+    <p id="output"></p>
+
+    <script>
+        document.getElementById("upload").addEventListener("change", function(event) {
+            let reader = new FileReader();
+            reader.onload = function() {
+                let img = document.getElementById("preview");
+                img.src = reader.result;
+                img.style.display = "block";
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        });
+
+        async function classifyImage() {
+            let fileInput = document.getElementById("upload").files[0];
+            if (!fileInput) {
+                alert("Please upload an image first!");
+                return;
+            }
+
+            let formData = new FormData();
+            formData.append("file", fileInput);
+
+            let response = await fetch("/predict/", {
+                method: "POST",
+                body: formData
+            });
+
+            let result = await response.json();
+            document.getElementById("output").innerText = `Prediction: ${result.prediction} (Confidence: ${result.confidence.toFixed(2)})`;
+        }
+    </script>
+</body>
+</html>
