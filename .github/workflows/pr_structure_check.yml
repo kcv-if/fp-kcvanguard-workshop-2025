@@ -16,7 +16,7 @@ jobs:
 
       - name: Get Changed Files
         id: changed_files
-        uses: tj-actions/changed-files@v44 # Using a specific recent version
+        uses: tj-actions/changed-files@v46 # Using a specific recent version
         with:
           files_separator: '\n' # Use newline separator for robustness with spaces/special chars
 
