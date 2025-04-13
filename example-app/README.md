@@ -7,7 +7,7 @@ Tambahkan gambar hasil deployment (jika ada)
 ## Anggota Tim
 | Nama       | NRP        | Github  |
 |------------|------------|---------|
-| Zharif     | 5025221163 | xcurvnubaim |
+| Zharif     | 5025221163 | [xcurvnubaim](https://github.com/xcurvnubaim) |
 | Cid Kageno | 5025221XXX | XXXX |
 | Ayanokouji | 5025221XXX | XXXX |
 
