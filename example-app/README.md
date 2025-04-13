@@ -1,5 +1,9 @@
 # Playing Card Classification
 
+Tambahkan gambar hasil deployment (jika ada)
+![image](https://github.com/user-attachments/assets/d8324fae-d3fd-4aa9-b345-fd03089e834f)
+
+
 ## Anggota Tim
 | Nama       | NRP        | Github  |
 |------------|------------|---------|
