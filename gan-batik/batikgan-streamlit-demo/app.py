@@ -92,7 +92,7 @@ st.markdown(f'''
     <a href="https://riciii7-fastapi-batik-gan.hf.space">
         <img src="https://cdn.simpleicons.org/fastapi" width="40" height="40" />
     </a>
-    <a href="https://huggingface.co/spaces/cthleen/batik-test2"> 
+    <a href="https://cthleen-batik-gan.hf.space"> 
         <img src="https://cdn.simpleicons.org/gradio" width="40" height="40" />
     </a>
     <a href="https://batik-gan-fe.vercel.app">
