@@ -1,0 +1,11 @@
+torch
+numpy
+Pillow
+gradio
+onnxruntime
+
+requests
+scipy
+psutil
+click
+imageio
