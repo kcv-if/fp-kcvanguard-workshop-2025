@@ -1,0 +1,4 @@
+name: ProGAN
+file: progan.onnx
+noise_shape: [1, 512, 1, 1]
+other_inputs: {}

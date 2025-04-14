@@ -1,0 +1,10 @@
+name: StyleGAN2
+file: stylegan2.pkl
+noise_shape: [1, 512]
+other_inputs:
+  truncation_psi:
+    value: 0.7
+    dtype: f32
+  noise_mode:
+    value: constant
+    dtype: str

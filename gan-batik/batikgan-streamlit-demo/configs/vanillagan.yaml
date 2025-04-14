@@ -1,0 +1,4 @@
+name: Vanilla GAN
+file: vanillagan.onnx
+noise_shape: [1, 512]
+other_inputs: {}
