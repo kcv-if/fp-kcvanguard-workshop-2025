@@ -1,7 +1,8 @@
 # GAN BATIK
 
-Tambahkan gambar hasil deployment (jika ada)
-![image](https://github.com/user-attachments/assets/d8324fae-d3fd-4aa9-b345-fd03089e834f)
+![image](https://github.com/user-attachments/assets/89cb82ea-f919-46f3-ab3e-535457813679)
+![image](https://github.com/user-attachments/assets/3ecf6789-a8f7-4240-ae69-915ad938061c)
+![image](https://github.com/user-attachments/assets/9762d707-8933-4df3-9a93-29aebfc69a67)
 
 
 ## Anggota Tim
