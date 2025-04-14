@@ -1,7 +1,9 @@
 # GAN BATIK
 
 ![image](https://github.com/user-attachments/assets/89cb82ea-f919-46f3-ab3e-535457813679)
+<br><br>
 ![image](https://github.com/user-attachments/assets/3ecf6789-a8f7-4240-ae69-915ad938061c)
+<br><br>
 ![image](https://github.com/user-attachments/assets/9762d707-8933-4df3-9a93-29aebfc69a67)
 
 
