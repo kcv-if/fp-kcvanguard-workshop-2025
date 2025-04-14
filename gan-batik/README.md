@@ -1,7 +1,10 @@
 # GAN BATIK
 
-Tambahkan gambar hasil deployment (jika ada)
-![image](https://github.com/user-attachments/assets/d8324fae-d3fd-4aa9-b345-fd03089e834f)
+![image](https://github.com/user-attachments/assets/89cb82ea-f919-46f3-ab3e-535457813679)
+<br><br>
+![image](https://github.com/user-attachments/assets/3ecf6789-a8f7-4240-ae69-915ad938061c)
+<br><br>
+![image](https://github.com/user-attachments/assets/9762d707-8933-4df3-9a93-29aebfc69a67)
 
 
 ## Anggota Tim
@@ -19,16 +22,16 @@ Project Generative AI untuk membuat motif batik dengan menggunakan Generative Ad
 
 ## Referensi
 Masukkan semua referensi project kalian disini
-1. https://arxiv.org/pdf/1406.2661
-2. https://arxiv.org/abs/2006.06676
-3. https://medium.com/@dnyaneshwalwadkar/generative-adversarial-network-gan-simplegan-dcgan-wgan-progan-c92389a3c454
-4. https://arxiv.org/pdf/2307.12122
-5. https://machinelearningmastery.com/how-to-implement-the-frechet-inception-distance-fid-from-scratch/
-6. https://arxiv.org/pdf/1511.06434
-7. https://arxiv.org/pdf/1710.10196
-8. https://arxiv.org/pdf/1812.04948
-9. https://github.com/NVlabs/stylegan2-ada-pytorch
-10. https://arxiv.org/pdf/1912.04958
+1. Generative Adversarial Nets, https://arxiv.org/pdf/1406.2661
+2. Training Generative Adversarial Networks with Limited Data, https://arxiv.org/abs/2006.06676
+3. Generative Adversarial Network (GAN) — SimpleGAN, DCGAN, WGAN, ProGAN, https://medium.com/@dnyaneshwalwadkar/generative-adversarial-network-gan-simplegan-dcgan-wgan-progan-c92389a3c454
+4. Synthesis of Batik Motifs using a Diffusion - Generative Adversarial Network, https://arxiv.org/pdf/2307.12122
+5. How to Implement the Frechet Inception Distance (FID) for Evaluating GANs, https://machinelearningmastery.com/how-to-implement-the-frechet-inception-distance-fid-from-scratch/
+6. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks, https://arxiv.org/pdf/1511.06434
+7. Progressive Growing of GANs for Improved Quality, Stability, and Variation, https://arxiv.org/pdf/1710.10196
+8. A Style-Based Generator Architecture for Generative Adversarial Networks, https://arxiv.org/pdf/1812.04948
+9. StyleGAN2-ADA — Official PyTorch implementation, https://github.com/NVlabs/stylegan2-ada-pytorch
+10. Analyzing and Improving the Image Quality of StyleGAN, https://arxiv.org/pdf/1912.04958
 
 ## Notes:
 1. Kalian bisa menambahkan folder notebook dan application. Tiap folder opsional, jadi boleh app nya atau notebooknya saja 
