@@ -1,9 +1,14 @@
-# GAN BATIK
+# BatikGAN: Synthesizing and Generating Unique Batik Patterns Using Generative Adversarial Networks
 
+[Streamlit deployed via Hugging Face](https://thisusernamealreadyexistsalreadyexists-batikgan-e7dd5c0.hf.space)
 ![image](https://github.com/user-attachments/assets/89cb82ea-f919-46f3-ab3e-535457813679)
-<br><br>
+
+
+[Gradio deployed via Hugging Face](https://cthleen-batik-test2.hf.space)
 ![image](https://github.com/user-attachments/assets/3ecf6789-a8f7-4240-ae69-915ad938061c)
-<br><br>
+
+
+[Frontend Next JS deployed via Vercel](https://batik-gan-fe.vercel.app)
 ![image](https://github.com/user-attachments/assets/9762d707-8933-4df3-9a93-29aebfc69a67)
 
 
