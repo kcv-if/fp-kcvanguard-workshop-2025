@@ -2,8 +2,7 @@
 
 ### [House Price Prediction - Hunggingface Space](https://huggingface.co/spaces/ryfkn/house-price-prediction)
 
-![image](![Image](https://github.com/user-attachments/assets/16fe058d-7990-4bd0-a69e-143a79407989))
-
+![Image](https://github.com/user-attachments/assets/a1c75eeb-d0e9-41f9-8eaf-71fd877076a2)
 
 ## Anggota Tim
 | Nama       | NRP        | Github  |
