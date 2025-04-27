@@ -7,7 +7,7 @@ Deployed to the following [**Huggingface space**](https://spuun-llada-8b-kcv.hf.
 
 (pls don't aboos, ts comin straight outta my pocket bruh, also, might b slow for the first message, it [cold boots](https://replicate.com/docs/reference/how-does-replicate-work#cold-boots))
 
-The backend is deployed as a [**Replicate Cog**](https://replicate.com/spuuntries/llada-8b-kcv).
+The backend is deployed as a [**Replicate Cog**](https://replicate.com/spuuntries/llada-8b-kcv) (Check out my cogs [here](https://github.com/spuuntries/rp-cogs)).
 ![replicate page](https://files.catbox.moe/cg7yov.png)
 
 ## 👯‍♀️ **Team Members**
