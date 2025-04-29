@@ -1,7 +1,3 @@
-Your README is already informative and visually engaging—great job presenting your project! However, there are a few areas where you can improve clarity, structure, and professionalism. Here's a refined version with smoother language and formatting improvements:
-
----
-
 # 🚫 Classify and Detoxify: Tackling Toxic Comments with RoBERTa and LLaMA
 
 ![Detoxification Process Demo](https://github.com/user-attachments/assets/89129e03-7253-40ea-aa77-a1a4163d3303)
