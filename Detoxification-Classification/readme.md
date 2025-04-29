@@ -1,4 +1,4 @@
-# 🚫 Classify and Detoxify: Tackling Toxic Comments with RoBERTa and LLaMA
+# Classify and Detoxify: Tackling Toxic Comments with RoBERTa and LLaMA
 
 ![Detoxification Process Demo](https://github.com/user-attachments/assets/89129e03-7253-40ea-aa77-a1a4163d3303)
 ![Model Pipeline Overview](https://github.com/user-attachments/assets/a523894a-802b-4a3f-986d-18f5bcf54c12)
@@ -37,11 +37,9 @@ Check out our detailed Medium article here:
 
 ---
 
-## 🧙‍♂️ Easter Egg
-
+## 🧙‍♂️ Magic Spell
+![image](https://github.com/user-attachments/assets/8fd6b7a7-91ec-4657-82dd-f4ee8d1d5c29)
 > **"Avada Kedavra"** 👀  
-(But don't worry — we bring comments back to life in a *kinder* form.)
+(But don’t worry — in our case, it’s reversed: we heal toxic comments instead of harming others.)
 
 ---
-
-Let me know if you want to add badges (e.g., Hugging Face model links, Medium views, or deployment status), embed the Gradio demo, or include a setup guide.
